@@ -1,3 +1,12 @@
+What we aim to do:
+- Create an aggregator site for any publicly available data.
+- Example include live sports scores, country related stats [population, area etc].
+- Let's start with trying to assemble all data related to COVID-19 since it is the most trending.
+- To begin will need to subscribe to some api endpoints through which we will recive COVID-19 related data [number of cases, deaths, recovered].
+- Also further we can drill down per country, county, city...
+- A quick search on google I found this https://rapidapi.com/collection/coronavirus-covid-19
+- Let's discuss how we want to show the data, layout, theme etc and have some fun!
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
