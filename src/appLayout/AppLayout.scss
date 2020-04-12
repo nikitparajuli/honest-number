@@ -1,6 +1,24 @@
+$orange: #ff8700;
+$black: black;
+$white: white;
+
 .app-viewport {
     min-height: 100vh;
     .app-header {
-        background: '#ff8700'
+        background: $orange;
+        padding: 0 15px;
+        .app-logo {
+            color: $white;
+        }
+    }
+    .app-content {
+        padding: 20px;
+        background: $black;
+    }
+    .app-footer {
+        font-size: 10px;
+        text-align: center;
+        background: $black;
+        padding: 5px;
     }
 }
