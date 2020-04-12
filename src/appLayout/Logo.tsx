@@ -1,20 +1,14 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faRupeeSign } from '@fortawesome/free-solid-svg-icons'
+import { faShieldAlt } from '@fortawesome/free-solid-svg-icons'
 
-type LogoProps = {
-    showText?: boolean;
-    color?: string;
-};
+type LogoProps = {};
 
-export const Logo: React.FC<LogoProps> = ({ showText, color }) => {
-    const IconStyle = {
-        fontSize: 40,
-        color: color || '#fff'
-    }   
+export const Logo: React.FC<LogoProps> = () => {
     return (
-        <div>
-            <FontAwesomeIcon style={IconStyle}  icon={faRupeeSign}/> {showText && `Paisa`}
+        <div className="app-logo">
+            <FontAwesomeIcon style={{fontSize: 40}}  icon={faShieldAlt}/> 
+            <span>honest number</span>
         </div>
     );
 }
