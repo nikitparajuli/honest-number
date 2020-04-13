@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'honestnumber'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_053f8ea21dd54810867a6a3ff0e6c5eb }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_908f0e600e354164bf384063f90c5930 }}
         package: .
